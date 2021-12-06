@@ -29,6 +29,7 @@ const siteList = [
     'smile.amazon.es',
     'smile.amazon.co.uk',
     'bestbuy.com',
+    'bestbuy.ca',
     'bhphotovideo.com',
     'canadacomputers.com',
     'ebay.com',
