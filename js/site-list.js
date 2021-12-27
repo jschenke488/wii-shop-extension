@@ -98,5 +98,7 @@ const siteList = [
     'ilva.dk',
     'jysk.dk',
     'fnac.fr',
-    'store.loadingreadyrun.com'
+    'store.loadingreadyrun.com',
+    'wayfair.com',
+    'wayfair.ca'
 ]
