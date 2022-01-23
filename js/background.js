@@ -16,12 +16,12 @@ themeAudio.loop = true
 // Get stored settings
 chrome.storage.local.get({
     music: 'wii-shop-theme'
-  }, function (data) {
-      currentMusic = chrome.extension.getURL('music/' + data.music + '.ogg')
+}, function (data) {
+    currentMusic = chrome.extension.getURL('music/' + data.music + '.ogg')
 })
 
 // Change music after settings change
-chrome.storage.onChanged.addListener(function(changes, area) {
+chrome.storage.onChanged.addListener(function (changes, area) {
     if (changes.music) {
         currentMusic = chrome.extension.getURL('music/' + changes.music.newValue + '.ogg')
         themeAudio.src = chrome.extension.getURL('music/' + changes.music.newValue + '.ogg')
@@ -59,34 +59,51 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 
 // Show notification on extension install
 chrome.runtime.onInstalled.addListener(function () {
-    // Firefox doesn't support buttons in notifications
+    // Set most options
+    var data = {
+        'type': 'basic',
+        'iconUrl': chrome.extension.getURL('img/icon128.png'),
+        'title': 'Wii Shop Music extension installed!',
+    }
+    // Set message and handlers for notification
     if (navigator.userAgent.includes("Firefox")) {
-        chrome.notifications.create({
-            'type': 'basic',
-            'iconUrl': chrome.extension.getURL('img/icon128.png'),
-            'title': 'Wii Shop Music extension installed!',
-            'message': 'The Wii Shop theme will now play when you visit shopping websites, and you can use the toolbar button to change settings. Click here to join the Discord server.'
-        }, function (id) {
-            browser.notifications.onClicked.addListener(function(id) {
-                chrome.tabs.create({ url: 'https://discord.com/invite/59wfy5cNHw' })
+        // Firefox supports does not support buttons in notifications
+        data.message = 'The Wii Shop theme will now play when you visit shopping websites. Click the toolbar button to change settings, or click this notification.'
+        handleNotif = function (id) {
+            chrome.notifications.onClicked.addListener(function (id) {
+                chrome.windows.create({
+                    'url': chrome.extension.getURL('popup.html'),
+                    'width': 300,
+                    'height': 500,
+                    'type': 'popup'
+                })
             })
-        })
+        }
     } else {
-        // Chromium browsers support buttons in notifications
-        chrome.notifications.create({
-            'type': 'basic',
-            'iconUrl': chrome.extension.getURL('img/icon128.png'),
-            'title': 'Wii Shop Music extension installed!',
-            'message': 'The Wii Shop theme will now play when you visit shopping websites, and you can use the toolbar button to change settings.',
-            buttons: [{
-                title: 'Join Discord server'
-            }]
-        }, function (id) {
-            chrome.notifications.onButtonClicked.addListener(function (id, btnIdx) {
-                if (btnIdx === 0) {
+        // Chromium browsers don't support openPopup(), but do support a button
+        data.message = 'The Wii Shop theme will now play when you visit shopping websites. Click the toolbar button to change settings at any time.'
+        data.buttons = [{
+            title: 'Open settings'
+        },
+        {
+            title: 'Join Discord'
+        }
+        ]
+        handleNotif = function (id) {
+            chrome.notifications.onButtonClicked.addListener(function (id, i) {
+                if (i === 0) {
+                    chrome.windows.create({
+                        'url': chrome.extension.getURL('popup.html'),
+                        'width': 300,
+                        'height': 500,
+                        'type': 'popup'
+                    })
+                } else if (i === 1) {
                     chrome.tabs.create({ url: 'https://discord.com/invite/59wfy5cNHw' })
                 }
             })
-        })
+        }
     }
+    // Display the notification
+    chrome.notifications.create(data, handleNotif)
 })
