@@ -57,6 +57,16 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
     })
 })
 
+// Listen for pause/play commands from popup
+chrome.runtime.onMessage.addListener(function (request) {
+    if (request === 'pause') {
+        themeAudio.src = ''
+    } else if (request === 'play') {
+        themeAudio.src = currentMusic
+        themeAudio.play()
+    }
+})
+
 // Show notification on extension install
 chrome.runtime.onInstalled.addListener(function () {
     // Set most options
