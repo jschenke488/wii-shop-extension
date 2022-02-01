@@ -55,7 +55,7 @@ const siteList = [
     'flipkart.com',
     'fnac.fr',
     'foetex.dk',
-	'food.grab.com''
+	'food.grab.com',
 	'foodpanda.ph',
     'gamma.nl',
     'gearbest.com',
@@ -79,6 +79,7 @@ const siteList = [
     'newegg.com',
     'overstock.com',
     'pchome.com.tw',
+	'pchubpricelist.online',
     'pcone.com.tw',
 	'pcx.com.ph',
     'pricerunner.co.uk',
