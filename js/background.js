@@ -11,21 +11,27 @@ if ('mediaSession' in navigator) {
 
 // Creat audio object
 var themeAudio = new Audio()
-themeAudio.volume = 0.5
+// set initially to silent, to not blast someone out of existance before we load the settings
+themeAudio.volume = 0
 themeAudio.loop = true
 
 // Get stored settings
 chrome.storage.local.get({
     music: 'wii-shop-theme',
-    musicEnabled: true
+    musicEnabled: true,
+    volume: 0.5,
 }, function (data) {
     currentMusic = chrome.extension.getURL('music/' + data.music + '.ogg')
     console.log('Music enabled:', data.musicEnabled)
     musicEnabled = data.musicEnabled
+    themeAudio.volume = data.volume
 })
 
 // Update settings after storage change
 chrome.storage.onChanged.addListener(function (changes, area) {
+    if (changes.volume) {
+        themeAudio.volume = changes.volume.newValue
+    }
     if (changes.musicEnabled) {
         musicEnabled = changes.musicEnabled.newValue
         if (!changes.musicEnabled) {
