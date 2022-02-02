@@ -2,6 +2,7 @@ const siteList = [
     'mercadolivre.com.br',
     'shopee.com.br',
     'pt.aliexpress.com',
+    'webstore.com.br',
     'kabum.com.br',
     'pichau.com.br',
     'chipart.com.br',
