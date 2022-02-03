@@ -126,15 +126,5 @@ const siteList = [
     'xl-byg.dk',
     'zalando.dk',
     'zalando.nl',
-    'zehrs.ca',
-//banggood
-    'au.banggood.com',
-    'banggood.cn',
-    'banggood.com',
-    'gr.banggood.com',
-    'jp.banggood.com',
-    'nl.banggood.com',
-    'ru.banggood.com',
-    'sea.banggood.com',
-    //banggood end
+    'zehrs.ca'
 ]
