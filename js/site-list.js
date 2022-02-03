@@ -1,5 +1,6 @@
 const siteList = [
     'aliexpress.com',
+    'amazon.ae',
     'amazon.ca',
     'amazon.cn',
     'amazon.co.jp',
@@ -14,6 +15,7 @@ const siteList = [
     'amazon.in',
     'amazon.it',
     'amazon.nl',
+    'amazon.sa',
     'azerty.nl',
     'bauhaus.dk',
     'bestbuy.com',
@@ -61,6 +63,7 @@ const siteList = [
     'hm.com',
     'ikea.com',
     'ilva.dk',
+    'jarir.com',
     'jysk.dk',
     'lttstore.com',
     'macys.com',
@@ -71,6 +74,7 @@ const siteList = [
     'momoshop.com.tw',
     'nemlig.com',
     'newegg.com',
+    'noon.com'
     'overstock.com',
     'pchome.com.tw',
     'pcone.com.tw',
