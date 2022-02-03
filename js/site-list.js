@@ -1,4 +1,6 @@
 const siteList = [
+    'gatry.com',
+    'buscape.com.br',
     'mercadolivre.com.br',
     'shopee.com.br',
     'pt.aliexpress.com',
