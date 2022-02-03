@@ -1,4 +1,4 @@
-# Wii Shop Channel Music
+# ![Wii shop channel logo](https://raw.githubusercontent.com/corbindavenport/wii-shop-extension/master/img/icon48.png) Wii Shop Channel Music
 
 ![gif](https://user-images.githubusercontent.com/42038239/152281142-e85c6313-b506-4bce-8d16-c82f9151892f.gif)
 
