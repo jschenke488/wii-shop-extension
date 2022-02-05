@@ -189,6 +189,7 @@ const siteList = [
     'walmart.com',
     'wish.com',
     'wayfair.com',
+    'worldofsweets.de',
     'xl-byg.dk',
     'xxxlutz.de',
     'zalando.dk',
