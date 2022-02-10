@@ -72,6 +72,7 @@ const siteList = [
     'momoshop.com.tw',
     'nemlig.com',
     'newegg.com',
+    'olx.ro',
     'overstock.com',
     'pchome.com.tw',
     'pcone.com.tw',
