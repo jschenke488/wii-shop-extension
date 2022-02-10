@@ -45,6 +45,7 @@ const siteList = [
     'ebay.nl',
     'ebay.ph',
     'elgiganten.dk',
+    'emag.ro',
     'eprice.com.tw',
     'etmall.com.tw',
     'etsy.com',
