@@ -268,6 +268,7 @@ const siteList = [
     'zalando.dk',
     'zalando.nl',
     'zehrs.ca',
+    'pccomponentes.com',
     'daraz.com.bd',
     'ryanscomputers.com',
     'startech.com.bd',
