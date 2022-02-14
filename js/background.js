@@ -3,6 +3,7 @@ var siteList = []
 fetch(chrome.extension.getURL('site-list.txt')).then(function (response) {
     response.text().then(function (text) {
         siteList = text.split('\n')
+        // Print list of sites
         console.log('Loaded list of sites:', siteList)
     })
 })

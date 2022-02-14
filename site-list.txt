@@ -64,6 +64,7 @@ bonprix.de
 books.com.tw
 books.rakuten.co.jp
 boozt.com
+botland.com.pl
 boulanger.com
 brack.ch
 buscape.com.br
@@ -83,6 +84,7 @@ cccreative.tv
 cdiscount.com
 cdon.com
 cea.com.br
+ceneo.pl
 chipart.com.br
 compumundo.com.ar
 computeruniverse.de
@@ -207,6 +209,7 @@ jcpenney.com
 jd.co.th
 jib.co.th
 jib.co.th
+jp.mercari.com
 jula.pl
 jysk.de
 jysk.dk
@@ -406,6 +409,7 @@ store.nintendo.com
 store.playstation.com
 store.steampowered.com
 submarino.com.br
+suruga-ya.com
 suruga-ya.jp
 swappa.com
 system76.com
@@ -459,5 +463,3 @@ zattini.com.br
 zehrs.ca
 zenmarket.jp
 zooplus.de
-botland.com.pl
-ceneo.pl
