@@ -119,6 +119,7 @@ const siteList = [
     'jib.co.th',
     'jula.pl',
     'jysk.dk',
+    'jbhifi.com.au',
     'kabum.com.br',
     'komputronik.pl',
     'lazada.co.th',
@@ -167,6 +168,7 @@ const siteList = [
     'netshoes.com.br',
     'neonet.pl',
     'newegg.com',
+    'officeworks.com.au',
     'noon.com'
     'official-goods-store.jp',
     'order.mandarake.co.jp',
