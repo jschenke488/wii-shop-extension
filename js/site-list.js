@@ -44,6 +44,7 @@ const siteList = [
     'amazon.in',
     'amazon.it',
     'amazon.nl',
+    'asos.com',
     'amazon.tw',
     'apple.com',
     'aumsum.com',
