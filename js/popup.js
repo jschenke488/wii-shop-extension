@@ -6,8 +6,38 @@ document.querySelector('#music-picker').addEventListener('change', function () {
 })
 
 // Get stored settings
-chrome.storage.local.get(function (data) {
-    document.querySelector('#music-picker').value = data.music;
+chrome.storage.local.get({
+    music: 'wii-shop-theme',
+    musicEnabled: 'true'
+}, function (data) {
+    document.querySelector('#music-picker').value = data.music
+    if (data.musicEnabled) {
+        document.getElementById('music-toggle').innerText = 'Turn off background music'
+    } else {
+        document.getElementById('music-toggle').innerText = 'Turn on background music'
+    }
+})
+
+// Music on/off button
+document.getElementById('music-toggle').addEventListener('click', function() {
+    chrome.storage.local.get({
+        musicEnabled: true
+    }, function (data) {
+        console.log(data)
+        if (data.musicEnabled) {
+            // Turn off music
+            document.getElementById('music-toggle').innerText = 'Turn on background music'
+            chrome.storage.local.set({
+                musicEnabled: false
+            })
+        } else {
+            // Turn on music
+            document.getElementById('music-toggle').innerText = 'Turn off background music'
+            chrome.storage.local.set({
+                musicEnabled: true
+            })
+        }
+    })
 })
 
 // Button link functionality
