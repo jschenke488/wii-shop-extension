@@ -5,11 +5,20 @@ document.querySelector('#music-picker').addEventListener('change', function () {
     })
 })
 
+// Save volume
+document.querySelector('#music-volume').addEventListener('change', function () {
+    chrome.storage.local.set({
+        volume: document.querySelector('#music-volume').value / 100
+    })
+})
+
 // Get stored settings
 chrome.storage.local.get({
     music: 'wii-shop-theme',
-    musicEnabled: 'true'
+    musicEnabled: 'true',
+    volume: 0.5,
 }, function (data) {
+    document.querySelector('#music-volume').value = (data.volume * 100)
     document.querySelector('#music-picker').value = data.music
     if (data.musicEnabled) {
         document.getElementById('music-toggle').innerText = 'Turn off background music'
