@@ -1,3 +1,12 @@
+// Get list of matching domains from site-list.txt
+var siteList = []
+fetch(chrome.extension.getURL('site-list.txt')).then(function (response) {
+    response.text().then(function (text) {
+        siteList = text.split('\n')
+        console.log('Loaded list of sites:', siteList)
+    })
+})
+
 // The active background music track is stored here instead of themeAudio.src
 var currentMusic = ''
 var musicEnabled = true
