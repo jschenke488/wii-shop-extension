@@ -16,6 +16,7 @@ const siteList = [
     'amazon.it',
     'amazon.nl',
     'amazon.pl',
+    'amazon.sg',
     'azerty.nl',
     'bauhaus.dk',
     'bestbuy.com',
