@@ -19,7 +19,7 @@ async function createMediaSession() {
     })
     navigator.mediaSession.setActionHandler('seekforward', function () {
         chrome.windows.create({
-            'url': chrome.extension.getURL('popup.html?resize=true'),
+            'url': chrome.extension.getURL('settings.html?resize=true'),
             'width': 350,
             'height': 500,
             'type': 'popup'
@@ -126,7 +126,7 @@ chrome.runtime.onInstalled.addListener(function () {
         handleNotif = function (id) {
             chrome.notifications.onClicked.addListener(function (id) {
                 chrome.windows.create({
-                    'url': chrome.extension.getURL('popup.html?resize=true'),
+                    'url': chrome.extension.getURL('settings.html?resize=true'),
                     'width': 350,
                     'height': 500,
                     'type': 'popup'
@@ -147,7 +147,7 @@ chrome.runtime.onInstalled.addListener(function () {
             chrome.notifications.onButtonClicked.addListener(function (id, i) {
                 if (i === 0) {
                     chrome.windows.create({
-                        'url': chrome.extension.getURL('popup.html?resize=true'),
+                        'url': chrome.extension.getURL('settings.html?resize=true'),
                         'width': 350,
                         'height': 500,
                         'type': 'popup'
