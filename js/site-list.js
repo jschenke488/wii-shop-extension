@@ -116,6 +116,6 @@ const siteList = [
     'xl-byg.dk',
     'zalando.dk',
     'zalando.nl',
-    'zehrs.ca'
+    'zehrs.ca',
     'pccomponentes.com'
 ]
