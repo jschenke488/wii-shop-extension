@@ -12,11 +12,24 @@ fetch(chrome.extension.getURL('site-list.txt')).then(function (response) {
 var currentMusic = ''
 var musicEnabled = true
 
+async function createMediaSession() {
+    navigator.mediaSession.metadata = new MediaMetadata({
+        title: 'Wii Shop Channel Music Extension',
+        artist: '(Click ⏩ to open settings)'
+    })
+    navigator.mediaSession.setActionHandler('seekforward', function () {
+        chrome.windows.create({
+            'url': chrome.extension.getURL('popup.html?resize=true'),
+            'width': 350,
+            'height': 500,
+            'type': 'popup'
+        })
+    })
+}
+
 // Set MediaSession API info for Chrome media player popup
 if ('mediaSession' in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-        title: 'Wii Shop Channel Music Extension'
-    })
+    createMediaSession()
 }
 
 // Create audio object
@@ -113,8 +126,8 @@ chrome.runtime.onInstalled.addListener(function () {
         handleNotif = function (id) {
             chrome.notifications.onClicked.addListener(function (id) {
                 chrome.windows.create({
-                    'url': chrome.extension.getURL('popup.html'),
-                    'width': 300,
+                    'url': chrome.extension.getURL('popup.html?resize=true'),
+                    'width': 350,
                     'height': 500,
                     'type': 'popup'
                 })
@@ -134,8 +147,8 @@ chrome.runtime.onInstalled.addListener(function () {
             chrome.notifications.onButtonClicked.addListener(function (id, i) {
                 if (i === 0) {
                     chrome.windows.create({
-                        'url': chrome.extension.getURL('popup.html'),
-                        'width': 300,
+                        'url': chrome.extension.getURL('popup.html?resize=true'),
+                        'width': 350,
                         'height': 500,
                         'type': 'popup'
                     })

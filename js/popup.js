@@ -1,3 +1,9 @@
+// Fix page width when opened from extensions settings page or install popup
+if (document.location.href.includes('resize=true')) {
+    document.querySelector('body').style.width = 'auto';
+    document.querySelector('html').style.width = 'auto';
+}
+
 // Save settings
 document.querySelector('#music-picker').addEventListener('change', function () {
     chrome.storage.local.set({
