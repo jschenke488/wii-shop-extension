@@ -403,6 +403,7 @@ staples.ca
 staples.com
 startech.com.bd
 steppingstone.com.tw
+store.elementary.io
 store.hypixel.net
 store.loadingreadyrun.com
 store.nintendo.com
