@@ -1,3 +1,4 @@
+123ink.ca
 24h.pchome.com.tw
 7net.omni7.jp
 a-onstore.jp
@@ -50,6 +51,7 @@ bauhaus.at
 bauhaus.dk
 bauhaus.info
 bestbuy.ca
+bestbuy.ca
 bestbuy.com
 bett1.de
 bhphotovideo.com
@@ -73,6 +75,7 @@ buy123.com.tw
 buyee.jp
 c-and-a.com
 canadacomputers.com
+canadiantire.ca
 carousell.ph
 carrefour.com.br
 carrefour.fr
@@ -94,6 +97,7 @@ coop.co.uk
 coop.dk
 correocompras.com.ar
 cosmed.com.tw
+costco.ca
 cyberport.de
 czasnaherbate.net
 dafiti.com.br
@@ -177,6 +181,7 @@ gamers.co.jp
 gamestop.com
 gamma.nl
 gap.com
+gapcanada.ca
 garbarino.com
 gatry.com
 gearbest.com
@@ -192,12 +197,15 @@ hilife.com.tw
 hm.com
 hmv.co.jp
 home24.de
+homedeopt.ca
+homehardware.ca
 hood.de
 hornbach.de
 hse.de
 humblebundle.com
 ikea.com
 ilva.dk
+indigo.ca
 instant-gaming.com
 invadeit.co.th
 iplace.com.br
@@ -237,11 +245,13 @@ limango.de
 limitedrungames.com
 livertineage.jp
 lojasrenner.com.br
+lowes.ca
 lttstore.com
 macys.com
 magazineluiza.com.br
 mandarake.co.jp
 marisa.com.br
+marks.com
 marktplaats.nl
 marshalls.com
 matas.dk
@@ -252,6 +262,7 @@ mediamarkt.nl
 mediamarkt.pl
 medimops.de
 melonbooks.co.jp
+memoryexpress.com
 mercadolibre.bo
 mercadolibre.cl
 mercadolibre.co.cr
@@ -295,6 +306,7 @@ nemlig.com
 neonet.pl
 netshoes.com.br
 newegg.ca
+newegg.ca
 newegg.com
 nike.de
 noon.com
@@ -318,6 +330,7 @@ overstock.com
 p-bandai.com
 p-bandai.jp
 page.auctions.yahoo.co.jp
+partycity.ca
 pccomponentes.com
 pchome.co.th
 pchome.com.tw
@@ -325,6 +338,8 @@ pchomeec.tw
 pchubpricelist.online
 pcone.com.tw
 pcx.com.ph
+petsmart.ca
+petvalu.ca
 piapp.com.tw
 pichau.com.br
 play.google.com
@@ -334,6 +349,7 @@ price.com.hk
 pricerunner.co.uk
 pricerunner.com
 pricerunner.dk
+primecables.ca
 pt.aliexpress.com
 pub.pchomeus.com
 pxmart.com.tw
@@ -352,6 +368,7 @@ reifen24.de
 reserved.com
 reuter.de
 reverb.com
+rona.ca
 rossmann.de
 rossmann.pl
 rueducommerce.fr
@@ -375,6 +392,7 @@ shopee.com.br
 shopee.ph
 shopee.tw
 shopinbit.de
+shopperplus.ca
 shopping.google.com
 shopping.parenting.com.tw
 shopping.yahoo.co.jp
@@ -403,6 +421,7 @@ staples.ca
 staples.com
 startech.com.bd
 steppingstone.com.tw
+stokesstores.com
 store.hypixel.net
 store.loadingreadyrun.com
 store.nintendo.com
@@ -429,6 +448,7 @@ tesco.com
 teufel.de
 thalia.at
 thalia.de
+thebay.com
 tower.jp
 tw.bid.yahoo.com
 tw.buy.yahoo.com
@@ -441,6 +461,7 @@ villman.com
 vinted.fr
 vvstore.jp
 waitrose.com
+walmart.ca
 walmart.com
 wayfair.ca
 wayfair.com
