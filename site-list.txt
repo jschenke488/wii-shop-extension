@@ -50,6 +50,7 @@ banggood.com
 bauhaus.at
 bauhaus.dk
 bauhaus.info
+bedbathandbeyond.com
 bestbuy.ca
 bestbuy.com
 bett1.de
@@ -173,10 +174,10 @@ food.grab.com
 foodpanda.ph
 fravega.com
 fromjapan.co.jp
+g2a.com
 gadgetandgear.com
 gadgetmonkeybd.com
 galaxus.ch
-g2a.com
 galeria.de
 gamers.co.jp
 gamestop.com
@@ -224,8 +225,6 @@ jysk.de
 jysk.dk
 jysk.pl
 kabs.de
-kohls.com
-bedbathandbeyond.com
 kabum.com.br
 kalunga.com.br
 kaufland.de
@@ -235,6 +234,7 @@ kinguin.net
 kinokuniya.com
 kinokuniya.com.tw
 klingel.de
+kohls.com
 komplett.no
 komputronik.pl
 lazada.co.th
@@ -306,6 +306,7 @@ musimundo.com
 mytoys.de
 mywheels.tv
 nemlig.com
+neokyo.com
 neonet.pl
 netshoes.com.br
 newegg.ca
@@ -382,6 +383,7 @@ sanmin.com.tw
 saturn.de
 saxo.com
 saxo.dk
+sendico.com
 shop-apotheke.de
 shop.apotal.de
 shop.cosmed.com.tw
@@ -452,8 +454,8 @@ tesco.com
 teufel.de
 thalia.at
 thalia.de
-tiendamia.com
 thebay.com
+tiendamia.com
 tower.jp
 tw.bid.yahoo.com
 tw.buy.yahoo.com
@@ -484,8 +486,6 @@ zalando.dk
 zalando.nl
 zalando.pl
 zalora.com.ph
-sendico.com
-neokyo.com
 zara.com
 zattini.com.br
 zehrs.ca
