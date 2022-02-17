@@ -176,6 +176,7 @@ fromjapan.co.jp
 gadgetandgear.com
 gadgetmonkeybd.com
 galaxus.ch
+g2a.com
 galeria.de
 gamers.co.jp
 gamestop.com
@@ -223,6 +224,8 @@ jysk.de
 jysk.dk
 jysk.pl
 kabs.de
+kohls.com
+bedbathandbeyond.com
 kabum.com.br
 kalunga.com.br
 kaufland.de
@@ -479,6 +482,8 @@ zalando.dk
 zalando.nl
 zalando.pl
 zalora.com.ph
+sendico.com
+neokyo.com
 zara.com
 zattini.com.br
 zehrs.ca
