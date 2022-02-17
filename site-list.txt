@@ -425,6 +425,7 @@ staples.com
 startech.com.bd
 steppingstone.com.tw
 stokesstores.com
+store.elementary.io
 store.hypixel.net
 store.loadingreadyrun.com
 store.nintendo.com
