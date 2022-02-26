@@ -3,9 +3,6 @@
 7-eleven.com
 7net.omni7.jp
 7now.com
-BHLDN.com
-Brooklinen.com
-Cuyana.com
 a-onstore.jp
 a.sofmap.com
 abilene.craigslist.org
@@ -107,6 +104,7 @@ bestbuy.com
 bett1.de
 bgky.craigslist.org
 bham.craigslist.org
+bhldn.com
 bhphotovideo.com
 bigbend.craigslist.org
 biggo.com.tw
@@ -138,6 +136,7 @@ bozeman.craigslist.org
 brack.ch
 brainerd.craigslist.org
 brasilia.craigslist.org
+brooklinen.com
 brownsville.craigslist.org
 brunswick.craigslist.org
 brussels.craigslist.org
@@ -223,6 +222,7 @@ costco.com
 cotedazur.craigslist.org
 csd.craigslist.org
 curitiba.craigslist.org
+cuyana.com
 cyberport.de
 czasnaherbate.net
 dafiti.com.br
