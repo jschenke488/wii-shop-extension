@@ -3,6 +3,9 @@
 7-eleven.com
 7net.omni7.jp
 7now.com
+BHLDN.com
+Brooklinen.com
+Cuyana.com
 a-onstore.jp
 a.sofmap.com
 abilene.craigslist.org
@@ -10,6 +13,7 @@ aboutyou.de
 accra.craigslist.org
 addisababa.craigslist.org
 adidas.de
+adlandpro.com
 agoda.com
 agoda.com.tw
 akroncanton.craigslist.org
@@ -61,7 +65,6 @@ appleton.craigslist.org
 apps.apple.com
 asheville.craigslist.org
 ashtabula.craigslist.org
-asos.com
 asos.com
 athensga.craigslist.org
 athensohio.craigslist.org
@@ -121,6 +124,7 @@ boise.craigslist.org
 bol.com
 bonito.pl
 bonprix.de
+bookoo.com
 books.com.tw
 books.rakuten.co.jp
 boone.craigslist.org
@@ -352,6 +356,7 @@ fortwayne.craigslist.org
 fravega.com
 frederick.craigslist.org
 fredericksburg.craigslist.org
+freepeople.com
 fresno.craigslist.org
 fromjapan.co.jp
 g2a.com
@@ -370,6 +375,7 @@ gapcanada.ca
 garbarino.com
 gatry.com
 gearbest.com
+geebo.com
 german.alibaba.com
 glensfalls.craigslist.org
 gngbd.com
@@ -387,6 +393,7 @@ greenville.craigslist.org
 grenoble.craigslist.org
 guatemala.craigslist.org
 gulfport.craigslist.org
+gumtree.com
 haifa.craigslist.org
 hanford.craigslist.org
 harald-nyborg.dk
@@ -424,6 +431,7 @@ imperial.craigslist.org
 indianapolis.craigslist.org
 indigo.ca
 inlandempire.craigslist.org
+inspireuplift.com
 instacart.com
 instant-gaming.com
 invadeit.co.th
@@ -445,7 +453,6 @@ jd.co.th
 jerseyshore.craigslist.org
 jerusalem.craigslist.org
 jewelosco.com
-jib.co.th
 jib.co.th
 jomashop.com
 jonesboro.craigslist.org
@@ -481,6 +488,7 @@ kohls.com
 kokomo.craigslist.org
 komplett.no
 komputronik.pl
+konga.com
 kpr.craigslist.org
 kroger.com
 ksu.craigslist.org
@@ -503,6 +511,7 @@ lazada.co.th
 lazada.com.ph
 ldlc.com
 leboncoin.fr
+letgo.com
 lewiston.craigslist.org
 lexington.craigslist.org
 lidl.de
@@ -516,6 +525,7 @@ limitedrungames.com
 lincoln.craigslist.org
 littlerock.craigslist.org
 livertineage.jp
+locanto.com
 logan.craigslist.org
 loire.craigslist.org
 lojasrenner.com.br
@@ -586,17 +596,12 @@ mercadolibre.com.sv
 mercadolibre.com.uy
 mercadolibre.com.ve
 mercadolivre.com.br
-mercadolivre.com.br
 mercari.com
 merced.craigslist.org
 merch.oversimplified.tv
 meridian.craigslist.org
 miami.craigslist.org
-miami.craigslist.org
-miami.craigslist.org
-miami.craigslist.org
 microcenter.com
-micronesia.craigslist.org
 micronesia.craigslist.org
 microsoft.com
 microspot.ch
@@ -640,7 +645,6 @@ neonet.pl
 nesd.craigslist.org
 netshoes.com.br
 newegg.ca
-newegg.ca
 newegg.com
 newhaven.craigslist.org
 newjersey.craigslist.org
@@ -667,6 +671,7 @@ o-gundam.de
 obi.de
 ocala.craigslist.org
 odessa.craigslist.org
+offerup.com
 office.com
 officeworks.com.au
 official-goods-store.jp
@@ -682,6 +687,7 @@ omakebooks.com
 oneonta.craigslist.org
 only.com
 onslow.craigslist.org
+oodle.com
 orangecounty.craigslist.org
 order.mandarake.co.jp
 order.noodles.com
@@ -731,6 +737,7 @@ pontofrio.com.br
 porthuron.craigslist.org
 portland.craigslist.org
 portoalegre.craigslist.org
+poshmark.com
 potsdam.craigslist.org
 poya.com.tw
 prescott.craigslist.org
@@ -744,7 +751,6 @@ provo.craigslist.org
 pt.aliexpress.com
 pub.pchomeus.com
 pueblo.craigslist.org
-puertorico.craigslist.org
 puertorico.craigslist.org
 pullman.craigslist.org
 pupbox.com
@@ -767,6 +773,7 @@ rapidcity.craigslist.org
 reading.craigslist.org
 rebuy.de
 recife.craigslist.org
+recycler.com
 redding.craigslist.org
 reichelt.de
 reifen.de
@@ -865,7 +872,6 @@ smile.amazon.ca
 smile.amazon.cn
 smile.amazon.co.jp
 smile.amazon.co.uk
-smile.amazon.co.uk
 smile.amazon.com
 smile.amazon.com.au
 smile.amazon.com.br
@@ -937,7 +943,6 @@ telekom.de
 telekom.sk
 terrehaute.craigslist.org
 tesco.com
-tesco.com
 teufel.de
 texarkana.craigslist.org
 texoma.craigslist.org
@@ -981,7 +986,6 @@ victoriatx.craigslist.org
 vietnam.craigslist.org
 villman.com
 vinted.fr
-virgin.craigslist.org
 virgin.craigslist.org
 visalia.craigslist.org
 vvstore.jp
@@ -1032,6 +1036,7 @@ zalando.nl
 zalando.pl
 zalora.com.ph
 zanesville.craigslist.org
+zappos.com
 zara.com
 zattini.com.br
 zehrs.ca
