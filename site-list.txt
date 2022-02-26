@@ -16,6 +16,9 @@ akroncanton.craigslist.org
 albany.craigslist.org
 albanyga.craigslist.org
 albuquerque.craigslist.org
+aldi-sued.de
+aldi.com
+aldi.us
 alibaba.com
 aliexpress.com
 allegro.pl
@@ -72,6 +75,7 @@ auragentum.de
 austin.craigslist.org
 avenue.com
 avon.com.br
+axe.com
 azerty.nl
 babymarkt.de
 backmarket.fr
@@ -80,6 +84,8 @@ bakersfield.craigslist.org
 baltimore.craigslist.org
 banggood.com
 bangladesh.craigslist.org
+barkbox.com
+barkshop.com
 batonrouge.craigslist.org
 battlecreek.craigslist.org
 bauhaus.at
@@ -177,6 +183,7 @@ charlotte.craigslist.org
 charlottesville.craigslist.org
 chattanooga.craigslist.org
 chautauqua.craigslist.org
+chewy.com
 chicago.craigslist.org
 chico.craigslist.org
 chillicothe.craigslist.org
@@ -208,6 +215,7 @@ cosmed.com.tw
 cosprings.craigslist.org
 costarica.craigslist.org
 costco.ca
+costco.com
 cotedazur.craigslist.org
 csd.craigslist.org
 curitiba.craigslist.org
@@ -236,13 +244,18 @@ dillards.com
 diverse.direct
 dm.de
 docmorris.de
+dollarshaveclub.com
+doordash.com
 dothan.craigslist.org
 douglas.de
 dresslink.com
+drsquatch.com
 dubai.craigslist.org
 dublin.craigslist.org
 dubuque.craigslist.org
 duluth.craigslist.org
+dunkinathome.com
+dunkindonuts.com
 dustin.no
 e-onkyo.com
 e.leclerc
@@ -379,6 +392,7 @@ hanford.craigslist.org
 harald-nyborg.dk
 harrisburg.craigslist.org
 harrisonburg.craigslist.org
+harrys.com
 hartford.craigslist.org
 hattiesburg.craigslist.org
 helena.craigslist.org
@@ -430,6 +444,7 @@ jcpenney.com
 jd.co.th
 jerseyshore.craigslist.org
 jerusalem.craigslist.org
+jewelosco.com
 jib.co.th
 jib.co.th
 jomashop.com
@@ -467,6 +482,7 @@ kokomo.craigslist.org
 komplett.no
 komputronik.pl
 kpr.craigslist.org
+kroger.com
 ksu.craigslist.org
 kuwait.craigslist.org
 lacrosse.craigslist.org
@@ -699,7 +715,9 @@ pcx.com.ph
 pennstate.craigslist.org
 pensacola.craigslist.org
 peoria.craigslist.org
+petco.com
 petsmart.ca
+petsuppliesplus.com
 petvalu.ca
 philadelphia.craigslist.org
 phoenix.craigslist.org
@@ -729,6 +747,7 @@ pueblo.craigslist.org
 puertorico.craigslist.org
 puertorico.craigslist.org
 pullman.craigslist.org
+pupbox.com
 pxmart.com.tw
 quadcities.craigslist.org
 quincy.craigslist.org
@@ -783,6 +802,7 @@ salem.craigslist.org
 salina.craigslist.org
 saltlakecity.craigslist.org
 salvador.craigslist.org
+samsclub.com
 sanangelo.craigslist.org
 sanantonio.craigslist.org
 sandiego.craigslist.org
@@ -803,6 +823,7 @@ saxo.dk
 scottsbluff.craigslist.org
 scranton.craigslist.org
 sd.craigslist.org
+sears.com
 seattle.craigslist.org
 seks.craigslist.org
 semo.craigslist.org
@@ -932,6 +953,7 @@ topeka.craigslist.org
 toulouse.craigslist.org
 tower.jp
 toysrus.com
+traderjoes.com
 treasure.craigslist.org
 tricities.craigslist.org
 tucson.craigslist.org
@@ -945,6 +967,7 @@ tw.mail.yahoo.com
 twinfalls.craigslist.org
 twintiers.craigslist.org
 u-mall.com.tw
+ubereats.com
 ukraine.craigslist.org
 ultima.pl
 uni-ustyle.com.tw
