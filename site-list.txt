@@ -122,6 +122,7 @@ boise.craigslist.org
 bol.com
 bonito.pl
 bonprix.de
+boohoo.com
 bookoo.com
 books.com.tw
 books.rakuten.co.jp
@@ -417,6 +418,7 @@ homehardware.ca
 honolulu.craigslist.org
 hood.de
 hornbach.de
+hottopic.com
 houma.craigslist.org
 houston.craigslist.org
 hse.de
@@ -643,6 +645,7 @@ nemlig.com
 neokyo.com
 neonet.pl
 nesd.craigslist.org
+net-a-porter.com
 netshoes.com.br
 newegg.ca
 newegg.com
@@ -708,6 +711,7 @@ pakistan.craigslist.org
 palmsprings.craigslist.org
 panama.craigslist.org
 panamacity.craigslist.org
+parcelup.com
 paris.craigslist.org
 parkersburg.craigslist.org
 partycity.ca
@@ -932,6 +936,7 @@ taiwanbar.cc
 tallahassee.craigslist.org
 tampa.craigslist.org
 taniaksiazka.pl
+taobao.com
 target.com
 tchibo.com
 tchibo.de
@@ -977,6 +982,7 @@ ukraine.craigslist.org
 ultima.pl
 uni-ustyle.com.tw
 up.craigslist.org
+us.boohoo.com
 us.shein.com
 utica.craigslist.org
 valdosta.craigslist.org
