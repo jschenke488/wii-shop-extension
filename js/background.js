@@ -2,7 +2,9 @@
 var siteList = []
 fetch(chrome.extension.getURL('site-list.txt')).then(function (response) {
     response.text().then(function (text) {
-        siteList = text.split('\n')
+        siteList = text
+            .split('\n')
+            .map(s => s.replace('\r', '')) //handles Windows newline formatting if necessary
         // Print list of sites
         console.log('Loaded list of sites:', siteList)
     })
@@ -72,8 +74,13 @@ chrome.storage.onChanged.addListener(function (changes, area) {
 
 // Function for checking if music should be playing in current tab
 function checkMusic(tabs) {
-    var url = new URL(tabs[0].url)
+    var url = tabs[0].url;
+    if (!url.startsWith('http')) {
+        return;
+    }
+    var url = new URL(url)
     var domain = url.hostname.toString().replace('www.', '')
+    console.log(siteList.includes(domain), domain)
     if (siteList.includes(domain) && musicEnabled) {
         if (themeAudio.src != currentMusic) {
             themeAudio.src = currentMusic
