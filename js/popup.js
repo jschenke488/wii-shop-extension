@@ -18,14 +18,22 @@ document.querySelector('#music-volume').addEventListener('change', function () {
     })
 })
 
+document.querySelector('#excluded-sites').addEventListener('change', function () {
+    chrome.storage.local.set({
+        excludedSites: document.querySelector('#excluded-sites').value
+    })
+})
+
 // Get stored settings
 chrome.storage.local.get({
     music: 'wii-shop-theme',
     musicEnabled: 'true',
     volume: 0.5,
+    excludedSites: ''
 }, function (data) {
     document.querySelector('#music-volume').value = (data.volume * 100)
     document.querySelector('#music-picker').value = data.music
+    document.querySelector('#excluded-sites').value = data.excludedSites;
     if (data.musicEnabled) {
         document.getElementById('music-toggle').innerText = 'Turn off background music'
     } else {
@@ -34,7 +42,7 @@ chrome.storage.local.get({
 })
 
 // Music on/off button
-document.getElementById('music-toggle').addEventListener('click', function() {
+document.getElementById('music-toggle').addEventListener('click', function () {
     chrome.storage.local.get({
         musicEnabled: true
     }, function (data) {

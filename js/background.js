@@ -13,6 +13,7 @@ fetch(chrome.extension.getURL('site-list.txt')).then(function (response) {
 // The active background music track is stored here instead of themeAudio.src
 var currentMusic = ''
 var musicEnabled = true
+var excludedSites = '';
 
 async function createMediaSession() {
     navigator.mediaSession.metadata = new MediaMetadata({
@@ -45,11 +46,13 @@ chrome.storage.local.get({
     music: 'wii-shop-theme',
     musicEnabled: true,
     volume: 0.5,
+    excludedSites: ''
 }, function (data) {
     currentMusic = chrome.extension.getURL('music/' + data.music + '.ogg')
     console.log('Music enabled:', data.musicEnabled)
     musicEnabled = data.musicEnabled
     themeAudio.volume = data.volume
+    excludedSites = data.excludedSites
 })
 
 // Update settings after storage change
@@ -70,18 +73,26 @@ chrome.storage.onChanged.addListener(function (changes, area) {
             themeAudio.play()
         }
     }
+    if (changes.excludedSites) {
+        excludedSites = changes.excludedSites.newValue;
+    }
 })
 
 // Function for checking if music should be playing in current tab
 function checkMusic(tabs) {
     var url = tabs[0].url;
     if (!url.startsWith('http')) {
+        themeAudio.src = ''
         return;
     }
     var url = new URL(url)
     var domain = url.hostname.toString().replace('www.', '')
     console.log(siteList.includes(domain), domain)
-    if (siteList.includes(domain) && musicEnabled) {
+    var sitesToIgnore = excludedSites.split('\n').map(s => s.toLowerCase().replace('www.', ''));
+    if (siteList.includes(domain)
+        && !sitesToIgnore.includes(domain)
+        && musicEnabled
+    ) {
         if (themeAudio.src != currentMusic) {
             themeAudio.src = currentMusic
         }
