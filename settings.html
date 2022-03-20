@@ -12,15 +12,18 @@
         body {
             width: 300px;
         }
+
         select {
             overflow: auto;
         }
+
         .btn-wii {
-            background: linear-gradient(to bottom, #f5fafe 0%,#fdfdfe 7%,#f2fdff 81%,#e8f3f8 86%,#e7f2f6 89%,#e4f0f3 93%,#ddeff0 100%);
+            background: linear-gradient(to bottom, #f5fafe 0%, #fdfdfe 7%, #f2fdff 81%, #e8f3f8 86%, #e7f2f6 89%, #e4f0f3 93%, #ddeff0 100%);
             border: 1px solid #34bfed;
         }
+
         .btn-wii:active {
-            background: linear-gradient(to top, #f5fafe 0%,#fdfdfe 7%,#f2fdff 81%,#e8f3f8 86%,#e7f2f6 89%,#e4f0f3 93%,#ddeff0 100%);
+            background: linear-gradient(to top, #f5fafe 0%, #fdfdfe 7%, #f2fdff 81%, #e8f3f8 86%, #e7f2f6 89%, #e4f0f3 93%, #ddeff0 100%);
         }
     </style>
 </head>
@@ -47,15 +50,22 @@
         </select>
 
         <label for="music-volume" class="mt-2 form-label">Music volume</label>
-        <input class="form-range" type="range" min="0" max="100" value="50" id="music-volume"/>
+        <input class="form-range" type="range" min="0" max="100" value="50" id="music-volume" />
 
-        <label for="excluded-sites" class="mt-2 form-label">Excluded Sites (one per line)</label>
-        <textarea id="excluded-sites" class="w-100"></textarea>
+        <button class="btn btn-sm btn-wii mt-3 w-100" id="exclude-button">Exclude this site</button>
+
+        <details>
+            <summary class="mt-2 form-label">See list of excluded sites</summary>
+            <label for="excluded-sites" class="mt-2 form-label">Excluded Sites (one per line)</label>
+            <textarea id="excluded-sites" class="w-100"></textarea>
+        </details>
 
         <div class="mt-2">More stuff</div>
 
-        <button class="btn btn-sm btn-wii mt-2 w-100" data-link="https://discord.com/invite/59wfy5cNHw">Join Discord server</button>
-        <button class="btn btn-sm btn-wii mt-2 mb-3 w-100" data-link="https://github.com/corbindavenport/wii-shop-extension/">GitHub repository</button>
+        <button class="btn btn-sm btn-wii mt-2 w-100" data-link="https://discord.com/invite/59wfy5cNHw">Join Discord
+            server</button>
+        <button class="btn btn-sm btn-wii mt-2 mb-3 w-100"
+            data-link="https://github.com/corbindavenport/wii-shop-extension/">GitHub repository</button>
 
     </div>
     <script src="js/popup.js"></script>

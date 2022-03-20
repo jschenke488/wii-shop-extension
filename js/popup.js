@@ -62,6 +62,34 @@ document.getElementById('music-toggle').addEventListener('click', function () {
         }
     })
 })
+document.getElementById('exclude-button').addEventListener('click', function () {
+    chrome.storage.local.get({
+        excludedSites: ''
+    }, function (data) {
+        var splitData = data.excludedSites.split('\n');
+        var cleanedList = splitData.map(s => s.trim().toLowerCase());
+        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+            var url = tabs[0].url;
+            if (!url.startsWith('http')) {
+                document.getElementById('exclude-button').innerText = "Invalid site."
+                return;
+            }
+            var url = new URL(url)
+            var domainToAdd = url.hostname.toString().replace('www.', '')
+            if (cleanedList.includes(domainToAdd)) {
+                document.getElementById('exclude-button').innerText = 'Site already excluded!'
+                return;
+            }
+
+            var updatedExcludedSites = data.excludedSites + '\n' + domainToAdd;
+            document.querySelector('#excluded-sites').value = updatedExcludedSites
+            chrome.storage.local.set({
+                excludedSites: updatedExcludedSites
+            })
+            document.getElementById('exclude-button').innerText = "Excluded " + domainToAdd + "!"
+        })
+    })
+})
 
 // Button link functionality
 document.querySelectorAll('button[data-link]').forEach(function (el) {
