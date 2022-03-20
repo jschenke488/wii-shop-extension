@@ -87,7 +87,7 @@ function checkMusic(tabs) {
     }
     var url = new URL(url)
     var domain = url.hostname.toString().replace('www.', '')
-    console.log(siteList.includes(domain), domain)
+    
     var sitesToIgnore = excludedSites.split('\n').map(s => s.toLowerCase().replace('www.', ''));
     if (siteList.includes(domain)
         && !sitesToIgnore.includes(domain)
