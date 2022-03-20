@@ -6,26 +6,20 @@ if (document.location.href.includes('resize=true')) {
 
 // Save settings
 document.querySelector('#music-picker').addEventListener('change', function () {
-    chrome.storage.local.set({
+    chrome.storage.sync.set({
         music: document.querySelector('#music-picker').value
     })
 })
 
 // Save volume
 document.querySelector('#music-volume').addEventListener('change', function () {
-    chrome.storage.local.set({
+    chrome.storage.sync.set({
         volume: document.querySelector('#music-volume').value / 100
     })
 })
 
-document.querySelector('#excluded-sites').addEventListener('change', function () {
-    chrome.storage.local.set({
-        excludedSites: document.querySelector('#excluded-sites').value
-    })
-})
-
 // Get stored settings
-chrome.storage.local.get({
+chrome.storage.sync.get({
     music: 'wii-shop-theme',
     musicEnabled: 'true',
     volume: 0.5,
@@ -33,7 +27,6 @@ chrome.storage.local.get({
 }, function (data) {
     document.querySelector('#music-volume').value = (data.volume * 100)
     document.querySelector('#music-picker').value = data.music
-    document.querySelector('#excluded-sites').value = data.excludedSites;
     if (data.musicEnabled) {
         document.getElementById('music-toggle').innerText = 'Turn off background music'
     } else {
@@ -43,27 +36,27 @@ chrome.storage.local.get({
 
 // Music on/off button
 document.getElementById('music-toggle').addEventListener('click', function () {
-    chrome.storage.local.get({
+    chrome.storage.sync.get({
         musicEnabled: true
     }, function (data) {
         console.log(data)
         if (data.musicEnabled) {
             // Turn off music
             document.getElementById('music-toggle').innerText = 'Turn on background music'
-            chrome.storage.local.set({
+            chrome.storage.sync.set({
                 musicEnabled: false
             })
         } else {
             // Turn on music
             document.getElementById('music-toggle').innerText = 'Turn off background music'
-            chrome.storage.local.set({
+            chrome.storage.sync.set({
                 musicEnabled: true
             })
         }
     })
 })
 document.getElementById('exclude-button').addEventListener('click', function () {
-    chrome.storage.local.get({
+    chrome.storage.sync.get({
         excludedSites: ''
     }, function (data) {
         var splitData = data.excludedSites.split('\n');
@@ -82,14 +75,21 @@ document.getElementById('exclude-button').addEventListener('click', function () 
             }
 
             var updatedExcludedSites = data.excludedSites + '\n' + domainToAdd;
-            document.querySelector('#excluded-sites').value = updatedExcludedSites
-            chrome.storage.local.set({
+            chrome.storage.sync.set({
                 excludedSites: updatedExcludedSites
             })
             document.getElementById('exclude-button').innerText = "Excluded " + domainToAdd + "!"
         })
     })
 })
+
+document.querySelector('#options-button').addEventListener('click', function () {
+    if (chrome.runtime.openOptionsPage) {
+        chrome.runtime.openOptionsPage();
+    } else {
+        window.open(chrome.runtime.getURL('options.html?resize=true'));
+    }
+});
 
 // Button link functionality
 document.querySelectorAll('button[data-link]').forEach(function (el) {
