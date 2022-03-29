@@ -1059,6 +1059,7 @@ shop.gekirock.com
 shop.hersheys.com
 shop.hololivepro.com
 shop.lululemon.com
+shop.mango.com
 shop.nytimes.com
 shop.ponycan.com
 shop.rewe.de
