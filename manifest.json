@@ -25,6 +25,7 @@
 		"128": "img/icon128.png"
 	},
 	"options_ui": {
-		"page": "settings.html?resize=true"
+		"page": "options.html?resize=true",
+		"open_in_tab": false
 	}
 }
