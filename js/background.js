@@ -138,12 +138,7 @@ chrome.runtime.onInstalled.addListener(function () {
         data.message = 'The Wii Shop theme will now play when you visit shopping websites. Click the toolbar button to change settings, or click this notification.'
         handleNotif = function (id) {
             chrome.notifications.onClicked.addListener(function (id) {
-                chrome.windows.create({
-                    'url': chrome.extension.getURL('settings.html?resize=true'),
-                    'width': 350,
-                    'height': 500,
-                    'type': 'popup'
-                })
+                browser.runtime.openOptionsPage();
             })
         }
     } else {
