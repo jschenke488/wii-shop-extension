@@ -187,6 +187,7 @@ boulanger.com
 boulder.craigslist.org
 bozeman.craigslist.org
 brack.ch
+bunnings.co.nz
 brainerd.craigslist.org
 brasilia.craigslist.org
 brooklinen.com
@@ -323,6 +324,8 @@ delaware.craigslist.org
 dell.com
 delrio.craigslist.org
 dengekiya.com
+designerwardrobe.co.nz
+diecastmodels.co.nz
 denniskirk.com
 denver.craigslist.org
 desmoines.craigslist.org
@@ -386,6 +389,7 @@ ebay.nl
 ebay.ph
 ebay.pl
 ebaymag.com
+ebgames.co.nz
 ecommerce.datablitz.com.ph
 ecs.toranoana.jp
 eddiebauer.com
@@ -428,6 +432,7 @@ fabric.com
 fairbanks.craigslist.org
 falabella.com
 falabella.com.ar
+farmers.co.nz
 farfetch.com
 fargo.craigslist.org
 farmington.craigslist.org
@@ -488,6 +493,7 @@ gatry.com
 gearbest.com
 geebo.com
 german.alibaba.com
+glassons.com
 glensfalls.craigslist.org
 gngbd.com
 go-sport.com
@@ -504,6 +510,9 @@ greatfalls.craigslist.org
 greenbay.craigslist.org
 greenmangaming.com
 greenmangaming.com
+hallensteins.com
+harald-nyborg.dk
+harveynorman.co.nz
 greensboro.craigslist.org
 greenville.craigslist.org
 grenoble.craigslist.org
@@ -528,7 +537,6 @@ hattiesburg.craigslist.org
 hdmall.id
 heb.com
 helena.craigslist.org
-hema.com
 hema.com
 hema.nl
 hema.nl
@@ -616,6 +624,7 @@ jakartanotebook.com
 jane.com
 janesville.craigslist.org
 jarir.com
+jbhifi.co.nz
 jbhifi.com.au
 jcpenney.com
 jcrew.com
@@ -637,6 +646,7 @@ joules.com
 jp.mercari.com
 jualo.com
 jula.pl
+justjeans.co.nz
 juneau.craigslist.org
 jxn.craigslist.org
 jysk.de
@@ -648,6 +658,7 @@ kabum.com.br
 kalamazoo.craigslist.org
 kalispell.craigslist.org
 kalunga.com.br
+kathmandu.co.nz
 kanafurniture.com
 kansascity.craigslist.org
 kaufland.de
@@ -666,6 +677,7 @@ klamath.craigslist.org
 klikindomaret.com
 kliknklik.com
 klingel.de
+kmart.co.nz
 knoxville.craigslist.org
 kohls.com
 kokomo.craigslist.org
@@ -835,6 +847,7 @@ microcenter.com
 micronesia.craigslist.org
 microsoft.com
 microspot.ch
+mightyape.co.nz
 milwaukee.craigslist.org
 mindfactory.de
 mineolafashion.com
@@ -845,6 +858,7 @@ missguidedus.com
 missoula.craigslist.org
 mitch.com.tw
 mitch.com.tw
+mitre10.co.nz
 mmoga.de
 mmoga.de
 mo88i.com
@@ -917,7 +931,6 @@ netshoes.com.br
 newbalance.com
 newegg.ca
 newegg.ca
-newegg.ca
 newegg.com
 newegg.com
 newhaven.craigslist.org
@@ -932,6 +945,7 @@ nihonmart.id
 nike.com
 nike.com
 nike.de
+noelleeming.co.nz
 nmi.craigslist.org
 nocibe.fr
 noodles.com
@@ -1001,6 +1015,7 @@ parcelup.com
 paris.craigslist.org
 parkersburg.craigslist.org
 partycity.ca
+pbtech.co.nz
 payless.com
 pccomponentes.com
 pchome.co.th
@@ -1094,6 +1109,7 @@ rakuten.co.jp
 rakuten.com
 rakuten.com.tw
 rakuten.de
+rebelsport.co.nz
 raleigh.craigslist.org
 ralphlauren.co.uk
 ralphs.com
@@ -1191,6 +1207,7 @@ shop-apotheke.de
 shop.apotal.de
 shop.com
 shop.cosmed.com.tw
+shop.countdown.co.nz
 shop.foofighters.com
 shop.foxnews.com
 shop.geekjack.net
@@ -1298,6 +1315,7 @@ store.warnermusic.com
 stpetersburg.craigslist.org
 strasbourg.craigslist.org
 submarino.com.br
+supercheapauto.co.nz
 suitsupply.com
 summitracing.com
 superdry.com
@@ -1342,6 +1360,13 @@ texoma.craigslist.org
 thalia.at
 thalia.de
 thebay.com
+themarket.com
+thewarehouse.co.nz
+tiendamia.com
+torpedo7.co.nz
+tower.jp
+toyco.co.nz
+trademe.co.nz
 thepremierstore.com
 therealreal.com
 thirddayco.com
@@ -1419,6 +1444,7 @@ waco.craigslist.org
 waitrose.com
 walmart.ca
 walmart.com
+warehousestationery.co.nz
 warbyparker.com
 warehousefashion.com
 washingtondc.craigslist.org
