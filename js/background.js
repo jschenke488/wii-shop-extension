@@ -21,12 +21,7 @@ async function createMediaSession() {
         artist: '(Click ⏩ to open settings)'
     })
     navigator.mediaSession.setActionHandler('seekforward', function () {
-        chrome.windows.create({
-            'url': chrome.extension.getURL('settings.html'),
-            'width': 350,
-            'height': 500,
-            'type': 'popup'
-        })
+        chrome.runtime.openOptionsPage();
     })
 }
 
@@ -164,12 +159,7 @@ chrome.runtime.onInstalled.addListener(function () {
         handleNotif = function (id) {
             chrome.notifications.onButtonClicked.addListener(function (id, i) {
                 if (i === 0) {
-                    chrome.windows.create({
-                        'url': chrome.extension.getURL('settings.html'),
-                        'width': 350,
-                        'height': 500,
-                        'type': 'popup'
-                    })
+                    chrome.runtime.openOptionsPage();
                 } else if (i === 1) {
                     chrome.tabs.create({ url: 'https://discord.com/invite/59wfy5cNHw' })
                 }

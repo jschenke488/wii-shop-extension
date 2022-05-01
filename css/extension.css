@@ -37,3 +37,7 @@ select {
 .text-success {
     color: green;
 }
+
+#excluded-sites {
+    resize: none;
+}
