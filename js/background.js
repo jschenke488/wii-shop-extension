@@ -22,7 +22,7 @@ async function createMediaSession() {
     })
     navigator.mediaSession.setActionHandler('seekforward', function () {
         chrome.windows.create({
-            'url': chrome.extension.getURL('settings.html?resize=true'),
+            'url': chrome.extension.getURL('settings.html'),
             'width': 350,
             'height': 500,
             'type': 'popup'
@@ -165,7 +165,7 @@ chrome.runtime.onInstalled.addListener(function () {
             chrome.notifications.onButtonClicked.addListener(function (id, i) {
                 if (i === 0) {
                     chrome.windows.create({
-                        'url': chrome.extension.getURL('settings.html?resize=true'),
+                        'url': chrome.extension.getURL('settings.html'),
                         'width': 350,
                         'height': 500,
                         'type': 'popup'

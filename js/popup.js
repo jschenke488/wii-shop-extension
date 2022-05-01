@@ -1,7 +1,6 @@
-// Fix page width when opened from extensions settings page or install popup
-if (document.location.href.includes('resize=true')) {
-    document.querySelector('body').style.width = 'auto';
-    document.querySelector('html').style.width = 'auto';
+// Hide 'Exclude current site' button if the page wasn't opened from the browser action button
+if (!document.location.href.includes('source=action')) {
+    document.getElementById('exclude-button').style.display = 'none'
 }
 
 // Save settings
@@ -55,6 +54,8 @@ document.getElementById('music-toggle').addEventListener('click', function () {
         }
     })
 })
+
+// Exclude button
 document.getElementById('exclude-button').addEventListener('click', function () {
     chrome.storage.sync.get({
         excludedSites: ''
@@ -82,14 +83,6 @@ document.getElementById('exclude-button').addEventListener('click', function () 
         })
     })
 })
-
-document.querySelector('#options-button').addEventListener('click', function () {
-    if (chrome.runtime.openOptionsPage) {
-        chrome.runtime.openOptionsPage();
-    } else {
-        window.open(chrome.runtime.getURL('options.html?resize=true'));
-    }
-});
 
 // Button link functionality
 document.querySelectorAll('button[data-link]').forEach(function (el) {
